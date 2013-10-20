@@ -1,0 +1,144 @@
+@font-face{
+    font-family: "Quicksand-light";
+    src: url("static/fonts/quicksand-light-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Quicksand";
+    src: url("/static/fonts/quicksand-regular-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#slideViewport
+{
+    width: 100%;
+    height: 100%;
+    font-family: "Quicksand";
+    padding-left: 0px;
+}
+
+body
+{
+    background-color: #C0C0C0;
+}
+
+#siteViewport
+{
+    width: 100%;
+    height: 100%;
+    font-family: "Quicksand";
+}
+
+#myNavbar
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    background-color: #72bcd4;
+    font-size: 16pt;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    height: 50px;
+}
+
+#jmortonNav
+{
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    height: 50px;
+    vertical-align: center;
+    padding: 15px;
+}
+
+section
+{
+    border-radius: 15px;
+    background-color: #cfcfcf;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+}
+
+#indexBody
+{
+    border-radius:15px;
+    padding: 0px;
+}
+
+#indexIntro
+{
+    font-size: 14pt;
+    text-align: left;
+}
+
+#bioBody
+{
+    border-radius: 15px;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.hoverfun
+{
+    border-radius: 15px;
+    background-color: #ededed;
+    padding: 0px;
+
+}
+.hoverfun:hover
+{
+    background-color: #ffffff;
+}
+
+li a 
+{
+    color: #808080;
+}
+
+.bodyClass
+{
+    border-radius: 15px;
+    text-align: left;
+}
+
+.bodyClass p
+{
+    font-size: 14pt;
+}
+
+.navigation li
+{
+    list-style: none;
+    padding: 2px;
+}
+
+.navigation li div
+{
+    padding: 5px;
+    font-size: 14pt;
+}
+
+a:hover
+{
+text-decoration: none;
+}
+
+.visibleSlide
+{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    height: 600px;
+}
