@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Josh Morton</title>
+        <meta name="description" content="A personal website for showcasing my work">
+        <meta name="author" content="Joshua Morton">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="Reveal/css/reveal.min.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="default.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="siteViewport" class="reveal">
+            <div class="slides" id="slideViewport">
+                <section id="index">
+                <!--This is the 'index' page/slide.  Its the home page-->
+                    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                            </button>
+                            <a class="navbar-brand" href="#" id="jmortonNav">Joshua Morton</a>
+                        </div>
+                        <!--navbar links and such-->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#/index">Home</a></li>
+                                <li><a href="#/biography">Biography</a></li>
+                                <li><a href="#/resume">Resume</a></li>
+                                <li><a href="#/contact">Contact</a></li>
+                                <li><a href="#/projects">Projects</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div id="indexBody" class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>Joshua Morton</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="Josh face.jpg" alt="ME!">
+                                <p>This image is a test
+                            </div>
+                            <div class="col-md-6" id="indexIntro">
+                                <p>Joshua Morton is a first year Computer Science major at Georgia Tech.  He provides 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="biography">
+                <!--Biography page holds my personal information and education and stuff-->
+                    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                            </button>
+                            <a class="navbar-brand" href="#" id="jmortonNav">Joshua Morton</a>
+                        </div>
+                        <!--navbar links and such-->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#/index">Home</a></li>
+                                <li class="active"><a href="#/biography">Biography</a></li>
+                                <li><a href="#/resume">Resume</a></li>
+                                <li><a href="#/contact">Contact</a></li>
+                                <li><a href="#/projects">Projects</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div id="bioBody" class="container">
+                        <div class="row">
+                            <div class="col-md-6 hoverfun col-md-offset-1">
+                                <h2>Who am I?</h2>
+                                <p>I'm Joshua Morton, a first year Computer Science major at Georgia Tech specializing in the threads of Automated Intelligence and Theory.  Before Tech, I studied at Campbell High School in Smyrna Georgia, and graduated with an International Baccalaureate diploma. 
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-5 hoverfun" id="myPersonal">
+                                <h2>What do I do?</h2>
+                                <p>I am an active member of The Agency, Tech's automated intelligence club.  There, I am currently helping to build a self driving car.  You can learn more about that project on the projects page, or <a href="#projects/agency">here</a>.  Additionally, I am a member of{GT: Webbed}, a dynamic web development club, Humanitech, a group that volunteers our time and expertise in CS fields, and a few other organizations in the College of Computing.  I also just generally like to fiddle with code, so you might find me working in python for little to no reason.
+                                <p>When not madly coding, I also enjoy all things circus.  I juggle, and unicycle, and I also perform on aerial equipment like a trapeze or aerial silks.  
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-1 hoverfun">
+                                <h2>Why do you want me?</h2>
+                                <p>I'm a proficient python programmer, relevant code examples can be found on my <a href="my github">Github</a>.  Furthermore, I want to see what happens when this rolls onto another page.  Since I still odn't know, I'll go ahead and type a little more.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="resume">
+                    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                            </button>
+                            <a class="navbar-brand" href="#" id="jmortonNav">Joshua Morton</a>
+                        </div>
+                        <!--navbar links and such-->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#/index">Home</a></li>
+                                <li><a href="#/biography">Biography</a></li>
+                                <li class="active"><a href="#/resume">Resume</a></li>
+                                <li><a href="#/contact">Contact</a></li>
+                                <li><a href="#/projects">Projects</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </section>
+                <section id="contact">
+                    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                            </button>
+                            <a class="navbar-brand" href="#" id="jmortonNav">Joshua Morton</a>
+                        </div>
+                        <!--navbar links and such-->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#/index">Home</a></li>
+                                <li><a href="#/biography">Biography</a></li>
+                                <li><a href="#/resume">Resume</a></li>
+                                <li class="active"><a href="#/contact">Contact</a></li>
+                                <li><a href="#/projects">Projects</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </section>
+                <section id="projects">
+                    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                            </button>
+                            <a class="navbar-brand" href="#" id="jmortonNav">Joshua Morton</a>
+                        </div>
+                        <!--navbar links and such-->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#/index">Home</a></li>
+                                <li><a href="#/biography">Biography</a></li>
+                                <li><a href="#/resume">Resume</a></li>
+                                <li><a href="#/contact">Contact</a></li>
+                                <li class="active"><a href="#/projects">Projects</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </section>
+            </div>
+        </div>
+
+
+
+
+
+        <!--No content below here, this is script that run on pageload-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="jquery.js"></script>
+        <!--reveal.js, links-->
+        <script src="Reveal/js/reveal.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- initialize the reveal.js presentation mode-->
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: false,
+                transition: "linear",
+
+                // Optional libraries used to extend on reveal.js
+            });
+
+        </script>
+
+    </body>
+</html>

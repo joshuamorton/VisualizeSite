@@ -1,5 +1,11 @@
 language: node_js
 node_js:
+<<<<<<< HEAD
   - 0.8
 before_script:
   - npm install -g grunt-cli
+=======
+- '0.10'
+before_install:
+- npm install grunt-cli bower -g
+>>>>>>> 13d58a9bec67356ecae0d6902cb634e52cebcf19
