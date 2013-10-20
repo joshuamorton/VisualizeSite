@@ -7,9 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <link rel="stylesheet" href="Reveal/css/reveal.min.css">
-        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href="default.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='Reveal/css/reveal.min.css')}}">
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" media="screen">
+        <link href="{{ url_for('static', filename='default.css')}}" rel="stylesheet">
 
     </head>
     <body>
@@ -46,7 +46,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="Josh face.jpg" alt="ME!">
+                                    <img src="{{ url_for('static', filename='joshface.jpg')}}" alt="ME!">
                                     <p>This image is a test
                                 </div>
                                 <div class="col-md-6" id="indexIntro">
@@ -247,7 +247,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="Josh face.jpg" alt="ME!">
+                                    <img src="{{joshface}}" alt="ME!">
                                     <p>This image is a test
                                 </div>
                                 <div class="col-md-6" id="indexIntro">
@@ -304,16 +304,16 @@
 
         <!--No content below here, this is script that run on pageload-->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="jquery.js"></script>
-        <!--reveal.js, links-->
-        <script src="Reveal/js/reveal.min.js"></script>
+        <script src="{{ url_for('static', filename='jquery.js')}}"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+        <!--reveal.js, links-->
+        <script src="{{ url_for('static', filename='Reveal/js/reveal.min.js')}}"></script>
 
         <!-- initialize the reveal.js presentation mode-->
         <script>
-
-            // Full list of configuration options available here:
+            
+ Full list of configuration options available here:
             // https://github.com/hakimel/reveal.js#configuration
             Reveal.initialize({
                 controls: false,
