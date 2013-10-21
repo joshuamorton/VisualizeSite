@@ -1,13 +1,13 @@
 @font-face{
     font-family: "Quicksand-light";
-    src: url("static/fonts/quicksand-light-webfont.ttf");
+    src: url("fonts/Quicksand-light-webfont.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Quicksand";
-    src: url("/static/fonts/quicksand-regular-webfont.ttf");
+    src: url("fonts/Quicksand-Regular.otf");
     font-weight: normal;
     font-style: normal;
 }
